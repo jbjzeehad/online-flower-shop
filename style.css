@@ -11,9 +11,7 @@ body {
 
 .shopnow-content {
     padding: 150px 60px;
-
     text-align: left;
-
 }
 
 .shopnow-content h1 {
@@ -24,11 +22,9 @@ body {
 .shopnow-content p {
     color: rgba(39, 39, 39, 60%);
     font-size: 18px;
-
 }
 
 .shopnow-image {
-
     width: 100%;
     height: auto;
 }
@@ -97,12 +93,16 @@ body {
     margin-right: 100px;
     padding: 20px 0 20px 100px;
     gap: 190px;
+}
 
+.flower-context a {
+    color: rgba(39, 39, 39, 100%);
 }
 
 /* third section */
-.third-section {
-    margin-top: 100px;
+
+#third-section {
+    margin: 100px 0;
 }
 
 .support {
@@ -116,15 +116,51 @@ body {
 .sup-cont {
     text-align: center;
     padding: 50px;
+}
 
+/* Online services */
 
+.online-services {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 10px;
+}
+
+.service-content {
+    text-align: center;
+    width: 50%;
+}
+
+.service-content img {
+    width: 15%;
+    height: auto;
+}
+
+.service-content ul {
+    text-align: left;
+}
+
+.about-us {
+    text-align: center;
+    width: 50%;
+}
+
+.about-us img {
+    width: 15%;
+    height: auto;
+}
+
+.about-us ul {
+    text-align: left;
 }
 
 /* fourth section */
+
 .sign-up {
     background-color: rgba(229, 84, 115, 5%);
     display: flex;
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 65px 130px;
 }
 
@@ -151,16 +187,13 @@ body {
     color: white;
     font-size: 20px;
     padding: 15px 35px;
-
 }
 
 .signup-image {
     padding-right: 70px;
 }
 
-
 /* fifth section */
-
 
 .social-media {
     text-align: center;
@@ -177,11 +210,9 @@ body {
     display: flex;
     margin-left: 90px;
     margin-right: 90px;
-
 }
 
 .flower {
-
     padding: 15px;
 }
 
@@ -191,9 +222,9 @@ body {
 }
 
 /* sixth Section */
+
 .sub-section {
     margin: 60px 0;
-
 }
 
 .sub-content {
@@ -208,18 +239,15 @@ body {
 .context {
     text-align: center;
     padding: 25px 100px;
-
 }
 
 .context h1 {
     color: rgba(39, 39, 39, 100%);
     font-size: 40px;
-
 }
 
 .context p {
     color: rgba(39, 39, 39, 60%);
-
 }
 
 .form {
@@ -235,12 +263,9 @@ body {
     border-radius: 7px;
 }
 
-
-
 /* Footer Part */
 
 .footer {
-
     background-color: #111010;
     text-align: center;
     padding: 80px 300px;
