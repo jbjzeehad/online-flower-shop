@@ -11,9 +11,7 @@ body {
 
 .shopnow-content {
     padding: 150px 60px;
-    ;
-    /* padding-left: 150px;
-    padding-top: 150px; */
+
     text-align: left;
 
 }
@@ -26,17 +24,34 @@ body {
 .shopnow-content p {
     color: rgba(39, 39, 39, 60%);
     font-size: 18px;
-    /* padding-bottom: 10px; */
+
 }
 
 .shopnow-image {
-    /* padding: 20px 80px 0 10px; */
+
     width: 100%;
     height: auto;
 
 
 
 }
+
+/* second section */
+
+
+.featured-flower {
+    text-align: center;
+    font-size: 30px;
+}
+
+.featured-flower p {
+    font-size: 16px;
+    color: rgba(39, 39, 39, 60%);
+    padding: 0 300px;
+}
+
+
+
 
 /* third section */
 .third-section {
