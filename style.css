@@ -31,13 +31,13 @@ body {
 
     width: 100%;
     height: auto;
-
-
-
 }
 
 /* second section */
 
+.featured {
+    margin: 70px 0;
+}
 
 .featured-flower {
     text-align: center;
@@ -47,15 +47,62 @@ body {
 .featured-flower p {
     font-size: 16px;
     color: rgba(39, 39, 39, 60%);
-    padding: 0 300px;
+    padding: 0 300px 20px 300px;
 }
 
+.flower-collection {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+}
 
+.flower-one {
+    background-color: rgba(167, 33, 98, 15%);
+    border-radius: 150px 150px 0px 0;
+    padding-right: 20px;
+}
 
+.flower-one img {
+    width: 80%;
+    padding: 90px 100px 0 50px;
+}
+
+.flower-two {
+    background-color: rgba(5, 151, 160, 15%);
+    border-radius: 150px 150px 0px 0;
+    padding-right: 20px;
+}
+
+.flower-two img {
+    width: 80%;
+    padding: 100px 40px 0 40px;
+}
+
+.flower-three {
+    background-color: rgba(71, 125, 17, 15%);
+    border-radius: 150px 150px 0px 0;
+    padding-right: 50px;
+}
+
+.flower-three img {
+    width: 80%;
+    padding: 100px 35px 0 50px;
+}
+
+.flower-context {
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px 0 20px 100px;
+    gap: 190px;
+
+}
 
 /* third section */
 .third-section {
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .support {
@@ -127,10 +174,6 @@ body {
 }
 
 .flower-image {
-    /* align-items: center; */
-    /* align-content: center; */
-
-
     display: flex;
     margin-left: 90px;
     margin-right: 90px;
@@ -157,11 +200,8 @@ body {
     background-image: url("Rectangle9.png");
     background-repeat: no-repeat;
     background-position: center;
-    /* width: 100%; */
-    /* height: auto; */
     margin-left: 100px;
     margin-right: 100px;
-    /* padding: 120px 60px; */
     padding: 120px 50px;
 }
 
@@ -179,7 +219,7 @@ body {
 
 .context p {
     color: rgba(39, 39, 39, 60%);
-    /* font-size: 18px; */
+
 }
 
 .form {
