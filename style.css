@@ -48,13 +48,13 @@ body {
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 .sup-cont {
     text-align: center;
     padding: 50px;
-    font-size: 20px;
+
 
 }
 
